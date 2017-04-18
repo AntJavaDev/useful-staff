@@ -20,6 +20,8 @@ public class TestDAO
 	 @PostConstruct
 	 public void test()
 	 {
+		 
+		 
 		 log.info(entityManager.toString());
 		 System.out.println(entityManager);
 	 }
